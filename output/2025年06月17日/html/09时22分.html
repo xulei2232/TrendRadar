@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-17 09:22:07</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7516347712556502591/" target="_blank" class="news-link">分析：中国芯片产业正重走稀土路</a> [27] <font color='grey'>- 09时22分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2058825" target="_blank" class="news-link">1500亿半导体龙头6月20日起正式变更证券简称|盘后公告集锦</a> [11] <font color='grey'>- 09时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%E6%8A%8ADeepseek%E5%BC%84%E7%96%AF%E4%BA%86&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">把Deepseek弄疯了</a> [7] <font color='grey'>- 09时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1916453480345854649" target="_blank" class="news-link">华为官宣鸿蒙 HarmonyOS 5.1 将于 7 月开启升级，对此你怎么看？会选择第一时间升级吗？</a> [19] <font color='grey'>- 09时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1917937390267377064" target="_blank" class="news-link">光线传媒董事长称《哪吒 2》票房分账全世界最不公平，100 块票房片方只拿 33 块，你认为怎么分才合理？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2132682" target="_blank" class="news-link">特斯拉Model Y七座版测评</a> [22] <font color='grey'>- 09时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749151" target="_blank" class="news-link">中东担忧缓解，芯片股力撑美股反弹，AMD涨近9%，原油黄金跳水</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2059022" target="_blank" class="news-link">Circle掌门预测稳定币快要迎来“iPhone时刻”  股价再创新高</a> [6] <font color='grey'>- 09时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E9%97%AD%E5%85%B3%E4%B8%A4%E5%B9%B4%E7%A0%94%E7%A9%B6%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">UP主闭关两年研究机器人</a> [11] <font color='grey'>- 09时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1917611719422882983" target="_blank" class="news-link">山东科技大学 2025 综合评价招生面试禁用红米手机考试，工作人员回应称「属实」，原因可能是什么？</a> [11] <font color='grey'>- 09时22分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%E6%8A%8ADeepseek%E5%BC%84%E7%96%AF%E4%BA%86&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">把Deepseek弄疯了</a> [7]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2132682" target="_blank" class="news-link">特斯拉Model Y七座版测评</a> [22]</li></ul><h4>zhihu (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/1917937390267377064" target="_blank" class="news-link">光线传媒董事长称《哪吒 2》票房分账全世界最不公平，100 块票房片方只拿 33 块，你认为怎么分才合理？</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.zhihu.com/question/1916453480345854649" target="_blank" class="news-link">华为官宣鸿蒙 HarmonyOS 5.1 将于 7 月开启升级，对此你怎么看？会选择第一时间升级吗？</a> [19]</li></ul></div>
+        </body>
+        </html>
+        
